@@ -80,3 +80,30 @@ class Inverted_trangle{
         }
     }
 }
+
+
+/*5)binary traingle*/
+1
+0 1
+1 0 1
+0 1 0 1
+    class binary_trangle{
+    public static void main(String[]args){
+     
+        int n=6;
+        for(int i=0;i<=6;i++){
+            for(int j=0;j<i;j++){
+                if((i+j)%2==0){
+                    System.out.println(1); 
+
+                } 
+                else {
+                    System.out.println(0); 
+                }
+            }
+            System.out.println(); 
+            
+
+        }
+    }
+}
