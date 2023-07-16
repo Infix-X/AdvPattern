@@ -109,6 +109,7 @@ class Inverted_trangle{
 }
 
 /*6)*/
+butterfly pattern
 class binary_trangle{
     public static void main(String[]args){
      
