@@ -60,3 +60,23 @@ class Inverted_trangle{
         System.out.println();
         }
     }
+
+/*4)floyed trangle*/
+1
+1 2
+3 4 5
+6 7 8 9
+
+
+    class Inverted_trangle{
+    public static void main(String[]args){
+        int n=6,counter=1;
+    for(int i=1;i<=n;i++){
+        /*spaces*/for(int j=1;j<=i;j++){
+            System.out.println(counter);
+            counter++;
+        }
+        System.out.println();
+        }
+    }
+}
