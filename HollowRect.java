@@ -48,7 +48,7 @@ expecte output:
 1
 */
 
-class Inverted_trangle{
+class Digit_trangle{
     public static void main(String[]args){
         int n=3;
         for(int i=1;i<=n;i++){
@@ -68,7 +68,7 @@ class Inverted_trangle{
 6 7 8 9
 
 
-    class Inverted_trangle{
+    class Floyed_trangle{
     public static void main(String[]args){
         int n=6,counter=1;
     for(int i=1;i<=n;i++){
@@ -206,3 +206,51 @@ public class HollowRhombas {
     }
     
 }
+/*9)
+    *
+  * * *
+* * * * *
+* * * * *
+  * * *
+    *    */
+public class Diamond {
+    public static void main(String[]args){
+        int n=6;
+        for(int i=1;i<=n;i++){
+            //spaces
+            for(int j=1;j<=(n-i);j++){
+                System.out.println(" ");
+            }
+            //star
+            for(int j=1;j<=(2*i)-1;j++){
+                System.out.println("*");
+               
+            }
+
+            
+             System.out.println();
+        }
+        //half part
+               for(int i=0;i>=n;i--){
+            //spaces
+            for(int j=1;j<=(n-i);j++){
+                System.out.println(" ");
+            }
+            //star
+            for(int j=1;j<=(2*i)-1;j++){
+                System.out.println("*");
+               
+            }
+
+            
+             System.out.println();
+        }
+
+
+    }
+    
+}
+
+  
+  
+
