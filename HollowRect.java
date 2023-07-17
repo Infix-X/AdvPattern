@@ -177,4 +177,32 @@ class binary_trangle{
     }
     }
 }
+/*8) hollow rhombas 
+       *****
+      *   *
+    *    *
+  *    *
+ *****
+  */
+public class HollowRhombas {
+    public static void main(String[]args){
+        int n=6;
+        for(int i=1;i<=n;i++){
+            //spaces
+            for(int j=1;j<=(n-i);j++){
+                System.out.println("");
+            }
+            //star
+            for(int j=1;j<=n;j++){
+                if(i==1||i==n || j==1||j==n){
+                    System.out.println("*");
+                }else{
+                     System.out.println(""); 
+                }
+            }
+             System.out.println();
+        }
 
+    }
+    
+}
